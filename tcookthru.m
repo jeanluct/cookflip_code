@@ -13,6 +13,14 @@ function [tct,tct1] = tcookthru(Tcook,h0,h1,Nm,Nz)
 %
 %   See also HEATEIGFUN, TEMP.
 
+%
+% This file is part of cookflip_code
+%
+% Copyright (c) 2022 Jean-Luc Thiffeault <jeanluc@math.wisc.edu>
+%
+% See the file LICENSE for copying permission.
+%
+
 if nargin < 1 || isempty(Tcook), Tcook = .257; end
 % Use "cooking" values if h0, h1 not given.
 if nargin < 2 || isempty(h0), h0 = 21.6; end

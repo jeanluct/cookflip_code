@@ -13,6 +13,14 @@ function f = flipop(h0,h1,Nm,Nz)
 %
 %   See also HEATEIGFUN, FLIPHEATFIX.
 
+%
+% This file is part of cookflip_code
+%
+% Copyright (c) 2022 Jean-Luc Thiffeault <jeanluc@math.wisc.edu>
+%
+% See the file LICENSE for copying permission.
+%
+
 % Use "cooking" values if h0, h1 not given.
 if nargin < 1 || isempty(h0), h0 = 21.6; end
 if nargin < 2 || isempty(h1), h1 = 1.44; end

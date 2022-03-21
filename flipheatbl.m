@@ -9,6 +9,14 @@ function u = flipheatbl(Z,h0,h1,dt)
 %
 %   See also FLIPOP, FLIPHEATOP, FLIPHEATFIX.
 
+%
+% This file is part of cookflip_code
+%
+% Copyright (c) 2022 Jean-Luc Thiffeault <jeanluc@math.wisc.edu>
+%
+% See the file LICENSE for copying permission.
+%
+
 if nargin < 1 || isempty(Z), Z = linspace(0,8,100); end
 if nargin < 2 || isempty(h0), h0 = inf; end
 if nargin < 3 || isempty(h1), h1 = h0; end

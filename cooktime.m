@@ -26,6 +26,14 @@ function [varargout] = cooktime(tflip,Tcook,h0,h1,Nm,Nz)
 %
 %   See also HEATEIGFUN, HEATSTEADY, MINCOOKTIME, TCOOKTHRU.
 
+%
+% This file is part of cookflip_code
+%
+% Copyright (c) 2022 Jean-Luc Thiffeault <jeanluc@math.wisc.edu>
+%
+% See the file LICENSE for copying permission.
+%
+
 % Use optimal solution as defaults.
 if nargin < 1 || isempty(tflip), tflip = 0.045625; end
 if nargin < 2 || isempty(Tcook), Tcook = .257; end

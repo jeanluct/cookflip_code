@@ -14,6 +14,14 @@ function [tc,tc1] = tcooksym(Tcook,h0,Nm,Nz)
 %
 %   See also HEATEIGFUN, TEMP, TCOOKTHRU.
 
+%
+% This file is part of cookflip_code
+%
+% Copyright (c) 2022 Jean-Luc Thiffeault <jeanluc@math.wisc.edu>
+%
+% See the file LICENSE for copying permission.
+%
+
 %% This contains quite a bit of duplicate code with tcookthru.
 
 if nargin < 1 || isempty(Tcook), Tcook = .257; end

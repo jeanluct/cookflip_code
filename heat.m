@@ -9,6 +9,14 @@ function T = heat(t,T0,h0,h1,Nm,Nz)
 %
 %   See also FLIPOP, HEATEIGFUN.
 
+%
+% This file is part of cookflip_code
+%
+% Copyright (c) 2022 Jean-Luc Thiffeault <jeanluc@math.wisc.edu>
+%
+% See the file LICENSE for copying permission.
+%
+
 if nargin < 1 || isempty(t), t = .1; end
 if nargin < 2 || isempty(T0), T0 = 0; end
 % Use "cooking" values if h0, h1 not given.
