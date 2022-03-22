@@ -1,5 +1,5 @@
 function [HF,HFH] = flipheatop(t,h0,h1,Nm,Nz)
-%FLIPHEATFOP   The flip-heat operator.
+%FLIPHEATOP   The flip-heat operator.
 %   HF = FLIPHEATOP(t,H0,H1,NM,NZ) returns the the flip-and-heat operator
 %   acting on eigenfunctions of the heat operator for a time t.  HF is a
 %   NMxNm matrix.  See <strong>heateigfun</strong> for a description of H0,H1,NM,NZ.
