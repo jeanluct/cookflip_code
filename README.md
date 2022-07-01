@@ -1,7 +1,7 @@
 # cookflip_code
 
 This repository contains Matlab code for the paper "[The Mathematics of
-Burger Flipping][4]" by [Jean-Luc Thiffeault][1].
+Burger Flipping][3]" by [Jean-Luc Thiffeault][1].
 
 ## Functions
 
